@@ -3189,11 +3189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m_din\\Desktop\\e-commerce\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\m_din\\Desktop\\e-commerce\\API\\API.csproj",
+      "projectPath": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\API.csproj",
       "packagesPath": "C:\\Users\\m_din\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m_din\\Desktop\\e-commerce\\API\\obj\\",
+      "outputPath": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\m_din\\AppData\\Roaming\\NuGet\\NuGet.Config",

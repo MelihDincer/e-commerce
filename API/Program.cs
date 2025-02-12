@@ -29,8 +29,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseStaticFiles(); //wwwroot klasörü altından statik dosyaları dışarıya açtık.
+
+
 app.UseCors(opt => {
-    opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");
+    opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000").AllowAnyOrigin();
 });
 app.UseAuthorization();
 

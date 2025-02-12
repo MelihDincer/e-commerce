@@ -1,6 +1,12 @@
-function Header(props: any) {
+import { AppBar, Toolbar, Typography } from "@mui/material";
+
+function Header() {
     return(
-      <h1>Başlık {props.products.length}</h1>
+        <AppBar position="static">
+            <Toolbar>
+                <Typography variant="h6">E Commerce</Typography>
+            </Toolbar>
+        </AppBar>
     );
   }
 

@@ -1,8 +1,8 @@
-
 import { useEffect, useState } from 'react';
 import '../App.css'
 import Header from './Header';
 import ProductList from './ProductList';
+import { Container, CssBaseline } from '@mui/material';
 
 // const products = [
 //     {productId: 1, productName: "product1", productPrice:50, isActive:false},
@@ -21,13 +21,15 @@ function App() {
   }, []
 )
  
-  function addProductHandler(){
-    setProducts([...products, {productId:Date.now(), productName: "product 4", productPrice: 4000, isActive: true}])
-  }
+  
   return (
     <>
-    <Header products={products} />
-    <ProductList products={products} addProductHandler={addProductHandler}/>
+    <CssBaseline />
+    <Header />
+    <Container>
+    <ProductList products={products}/>
+    </Container>
+    
     </>
   )
 }

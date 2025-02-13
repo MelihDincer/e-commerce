@@ -1,5 +1,5 @@
 import { Grid2 } from "@mui/material";
-import { IProduct } from "../model/IProduct";
+import { IProduct } from "../../model/IProduct";
 import Product from "./Product";
 
 interface Props {
@@ -11,7 +11,7 @@ function ProductList({ products }: Props) {
     <Grid2 container spacing={2}>
       {products.map(
         (p: IProduct) => 
-        <Grid2 key={p.productId} size={{xs:6, md:4, lg:3}}>
+        <Grid2 key={p.productId} size={{xs:12, sm:6, md:4, lg:3}}>
           <Product key={p.productId} product={p} />
         </Grid2>
       )}

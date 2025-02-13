@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AuVKYQPXzqzZxGsuDG6OtJJBwo12YqmOGqHLF7lVJjk=",
+  "Hash": "XQMfnpeylqlg6J29x8bbqqvtaDhyAlHfbPPQkt2jKKM=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\1.png",
+      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\1.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/1#[.{fingerprint}]?.png",
+      "RelativePath": "images/1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -35,15 +35,15 @@
       "Integrity": "Gftl2l1seImUONudAyf6aS2tqx6K3GNrt9e+xfR8M1Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\1.png"
+      "OriginalItemSpec": "wwwroot\\images\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\2.png",
+      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\2.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/2#[.{fingerprint}]?.png",
+      "RelativePath": "images/2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -56,15 +56,15 @@
       "Integrity": "T65//uy1JFo8yQwgCIZIvvvT20H20drurF2SnfzA7GM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\2.png"
+      "OriginalItemSpec": "wwwroot\\images\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\3.png",
+      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\3.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/3#[.{fingerprint}]?.png",
+      "RelativePath": "images/3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -77,15 +77,15 @@
       "Integrity": "nfjKH3GGe65a8MjfwqVq6lvGncxJBR0EYjKlsFjsGZE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\3.png"
+      "OriginalItemSpec": "wwwroot\\images\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\4.png",
+      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\4.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/4#[.{fingerprint}]?.png",
+      "RelativePath": "images/4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -98,15 +98,15 @@
       "Integrity": "JoAcm2LxYV3xdXpQGhAaU7rSUSNWxOBqNtk+qPvp8cc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\4.png"
+      "OriginalItemSpec": "wwwroot\\images\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\5.png",
+      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\5.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/5#[.{fingerprint}]?.png",
+      "RelativePath": "images/5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -119,15 +119,15 @@
       "Integrity": "AYgBM/iuKQUoAUrJBfveXu59kgtRyPtEIOKe/ajpIWE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\5.png"
+      "OriginalItemSpec": "wwwroot\\images\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\6.png",
+      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\6.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/6#[.{fingerprint}]?.png",
+      "RelativePath": "images/6#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -140,15 +140,15 @@
       "Integrity": "J6FxtX/wg5SopCjFiGvuFXv84+5zlY6lyQiWjPLcydE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\6.png"
+      "OriginalItemSpec": "wwwroot\\images\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\7.png",
+      "Identity": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\7.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/7#[.{fingerprint}]?.png",
+      "RelativePath": "images/7#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -161,13 +161,13 @@
       "Integrity": "nfjKH3GGe65a8MjfwqVq6lvGncxJBR0EYjKlsFjsGZE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\7.png"
+      "OriginalItemSpec": "wwwroot\\images\\7.jpg"
     }
   ],
   "Endpoints": [
     {
-      "Route": "images/1.3hkxvo0xqq.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\1.png",
+      "Route": "images/1.3hkxvo0xqq.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -180,7 +180,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -202,7 +202,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/1.png"
+          "Value": "images/1.jpg"
         },
         {
           "Name": "integrity",
@@ -211,8 +211,8 @@
       ]
     },
     {
-      "Route": "images/1.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\1.png",
+      "Route": "images/1.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -225,7 +225,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -248,8 +248,8 @@
       ]
     },
     {
-      "Route": "images/2.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\2.png",
+      "Route": "images/2.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -262,7 +262,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -285,8 +285,8 @@
       ]
     },
     {
-      "Route": "images/2.vssi81a86z.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\2.png",
+      "Route": "images/2.vssi81a86z.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -299,7 +299,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -321,7 +321,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/2.png"
+          "Value": "images/2.jpg"
         },
         {
           "Name": "integrity",
@@ -330,8 +330,8 @@
       ]
     },
     {
-      "Route": "images/3.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\3.png",
+      "Route": "images/3.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -344,7 +344,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -367,8 +367,8 @@
       ]
     },
     {
-      "Route": "images/3.xrzecoeyav.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\3.png",
+      "Route": "images/3.xrzecoeyav.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -381,7 +381,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -403,7 +403,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/3.png"
+          "Value": "images/3.jpg"
         },
         {
           "Name": "integrity",
@@ -412,8 +412,8 @@
       ]
     },
     {
-      "Route": "images/4.mt3q269pqe.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\4.png",
+      "Route": "images/4.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -426,7 +426,44 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JoAcm2LxYV3xdXpQGhAaU7rSUSNWxOBqNtk+qPvp8cc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 20:38:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JoAcm2LxYV3xdXpQGhAaU7rSUSNWxOBqNtk+qPvp8cc="
+        }
+      ]
+    },
+    {
+      "Route": "images/4.mt3q269pqe.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37137"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -448,7 +485,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/4.png"
+          "Value": "images/4.jpg"
         },
         {
           "Name": "integrity",
@@ -457,45 +494,8 @@
       ]
     },
     {
-      "Route": "images/4.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\4.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37137"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JoAcm2LxYV3xdXpQGhAaU7rSUSNWxOBqNtk+qPvp8cc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 20:38:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-JoAcm2LxYV3xdXpQGhAaU7rSUSNWxOBqNtk+qPvp8cc="
-        }
-      ]
-    },
-    {
-      "Route": "images/5.d93q1lyj7c.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\5.png",
+      "Route": "images/5.d93q1lyj7c.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -508,7 +508,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -530,7 +530,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/5.png"
+          "Value": "images/5.jpg"
         },
         {
           "Name": "integrity",
@@ -539,8 +539,8 @@
       ]
     },
     {
-      "Route": "images/5.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\5.png",
+      "Route": "images/5.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -553,7 +553,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -576,8 +576,8 @@
       ]
     },
     {
-      "Route": "images/6.1mgbua76o9.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\6.png",
+      "Route": "images/6.1mgbua76o9.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -590,7 +590,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -612,7 +612,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/6.png"
+          "Value": "images/6.jpg"
         },
         {
           "Name": "integrity",
@@ -621,8 +621,8 @@
       ]
     },
     {
-      "Route": "images/6.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\6.png",
+      "Route": "images/6.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -635,7 +635,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -658,8 +658,8 @@
       ]
     },
     {
-      "Route": "images/7.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\7.png",
+      "Route": "images/7.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -672,7 +672,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -695,8 +695,8 @@
       ]
     },
     {
-      "Route": "images/7.xrzecoeyav.png",
-      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\7.png",
+      "Route": "images/7.xrzecoeyav.jpg",
+      "AssetFile": "C:\\Users\\m_din\\source\\repos\\React_Projects\\e-commerce\\API\\wwwroot\\images\\7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -709,7 +709,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -731,7 +731,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/7.png"
+          "Value": "images/7.jpg"
         },
         {
           "Name": "integrity",

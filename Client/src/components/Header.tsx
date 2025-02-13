@@ -1,10 +1,12 @@
-import { AppBar, Toolbar, Typography } from "@mui/material";
+import { AppBar, Container, Toolbar, Typography } from "@mui/material";
 
 function Header() {
     return(
-        <AppBar position="static">
+        <AppBar position="static" sx={{mb:1}}>
             <Toolbar>
-                <Typography variant="h6">E Commerce</Typography>
+                <Container>
+                    <Typography variant="h6">E Commerce</Typography>
+                </Container>
             </Toolbar>
         </AppBar>
     );

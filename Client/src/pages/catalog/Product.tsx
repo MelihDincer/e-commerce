@@ -25,7 +25,7 @@ function Product({product}: Props) {
         </CardContent>
         <CardActions>
           <Button variant="outlined" startIcon={<AddShoppingCart/>} color="success" size="small">Add to cart</Button>
-          <Button component={Link} to={`/catalog/${product.productId}`} size="small" startIcon={<SearchIcon/>} color="primary">View</Button>
+          <Button variant="outlined" component={Link} to={`/catalog/${product.productId}`} size="small" startIcon={<SearchIcon/>} color="primary">View</Button>
         </CardActions>
      </Card>
       </>

@@ -15,13 +15,13 @@ public class ErrorController : ControllerBase
     [HttpGet("bad-request")]
     public IActionResult BadRequestError()
     {
-        return BadRequest();
+        return BadRequest("Geçersiz istek.");
     }
 
     [HttpGet("unauthorized")]
     public IActionResult UnAuthorizedError()
     {
-        return Unauthorized();
+        return Unauthorized("Yetkiniz bulunmamaktadır!");
     }
 
     [HttpGet("validation-error")]

@@ -3,6 +3,7 @@ import { toast } from "react-toastify";
 import { router } from "../router/Routes";
 
 axios.defaults.baseURL = "http://localhost:5198/api/";
+
 axios.interceptors.response.use(response => {
     return response;
 }, (error: AxiosError) => {
@@ -10,11 +11,18 @@ axios.interceptors.response.use(response => {
     switch(status)
     {
         case 400:
-            
-            toast.error(data.title);
+            if (data.errors) {
+                const modelErrors : string[] = [];
+
+                for(const key in data.errors) {
+                    modelErrors.push(data.errors[key]);
+                }
+                throw modelErrors;
+            }
+            toast.error(data);
             break;
         case 401:
-            toast.error(data.title)
+            toast.error(data)
             break;
         case 404:
             router.navigate("/not-found")

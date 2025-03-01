@@ -1,16 +1,16 @@
 namespace API.Entity;
 
-public class Card 
+public class Cart 
 {
-    public int CardId {get; set;}
+    public int CartId {get; set;}
     public string CustomerId {get; set;} = null!;
-    public List<CardItem> CardItems { get; set; } = new List<CardItem>();
+    public List<CartItem> CartItems { get; set; } = new List<CartItem>();
     public void AddItem(Product product, int quantity) 
     {
-        var item = CardItems.Where(c => c.ProductId == product.ProductId).FirstOrDefault();
+        var item = CartItems.Where(c => c.ProductId == product.ProductId).FirstOrDefault();
         if(item == null)
         {
-            CardItems.Add(new CardItem {Product = product, Quantity = quantity});
+            CartItems.Add(new CartItem {Product = product, Quantity = quantity});
         }
         else
         {
@@ -20,7 +20,7 @@ public class Card
 
     public void DeleteItem(int productId, int quantity)
     {
-        var item = CardItems.Where(c => c.ProductId == productId).FirstOrDefault();
+        var item = CartItems.Where(c => c.ProductId == productId).FirstOrDefault();
         if(item == null)
         {
             return;
@@ -28,18 +28,18 @@ public class Card
         item.Quantity -= quantity;
         if(item.Quantity == 0)
         {
-            CardItems.Remove(item);
+            CartItems.Remove(item);
         }
     }
 }
 
-public class CardItem
+public class CartItem
 {
-    public int CardItemId {get; set;}
+    public int CartItemId {get; set;}
     public int ProductId{ get; set; }
     public Product Product { get; set; } = null!;
-    public int CardId { get; set; }
-    public Card Card { get; set; } = null!;
+    public int CartId { get; set; }
+    //public Cart Cart { get; set; } = null!;
     public int Quantity { get; set; }
 
 }

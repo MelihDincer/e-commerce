@@ -10,36 +10,36 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250227190704_AddCard")]
-    partial class AddCard
+    [Migration("20250301204455_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "9.0.2");
+            modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
 
-            modelBuilder.Entity("API.Entity.Card", b =>
+            modelBuilder.Entity("API.Entity.Cart", b =>
                 {
-                    b.Property<int>("CardId")
+                    b.Property<int>("CartId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("CustomerId")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("CardId");
+                    b.HasKey("CartId");
 
-                    b.ToTable("Cards");
+                    b.ToTable("Carts");
                 });
 
-            modelBuilder.Entity("API.Entity.CardItem", b =>
+            modelBuilder.Entity("API.Entity.CartItem", b =>
                 {
-                    b.Property<int>("CardItemId")
+                    b.Property<int>("CartItemId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("CardId")
+                    b.Property<int>("CartId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("ProductId")
@@ -48,13 +48,13 @@ namespace API.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("CardItemId");
+                    b.HasKey("CartItemId");
 
-                    b.HasIndex("CardId");
+                    b.HasIndex("CartId");
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("CardItem");
+                    b.ToTable("CartItem");
                 });
 
             modelBuilder.Entity("API.Entity.Product", b =>
@@ -139,11 +139,11 @@ namespace API.Migrations
                         });
                 });
 
-            modelBuilder.Entity("API.Entity.CardItem", b =>
+            modelBuilder.Entity("API.Entity.CartItem", b =>
                 {
-                    b.HasOne("API.Entity.Card", "Card")
-                        .WithMany("CardItems")
-                        .HasForeignKey("CardId")
+                    b.HasOne("API.Entity.Cart", null)
+                        .WithMany("CartItems")
+                        .HasForeignKey("CartId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -153,14 +153,12 @@ namespace API.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Card");
-
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("API.Entity.Card", b =>
+            modelBuilder.Entity("API.Entity.Cart", b =>
                 {
-                    b.Navigation("CardItems");
+                    b.Navigation("CartItems");
                 });
 #pragma warning restore 612, 618
         }

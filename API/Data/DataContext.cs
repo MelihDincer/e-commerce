@@ -25,5 +25,5 @@ public class DataContext : DbContext
     }
 
     public DbSet<Product> Products => Set<Product>();
-    public DbSet<Card> Cards => Set<Card>();
+    public DbSet<Cart> Carts => Set<Cart>();
 }

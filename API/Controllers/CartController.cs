@@ -16,10 +16,10 @@ public class CartController: ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<Cart>> GetCart()
+    public async Task<ActionResult<CartDTO>> GetCart()
     {
         var value = await GetOrCreate();      
-        return value;
+        return CartToDTO(value);
     }
 
     [HttpPost]
@@ -32,7 +32,7 @@ public class CartController: ControllerBase
        value.AddItem(product,quantity);
        var result = await _context.SaveChangesAsync() > 0;
        if (result)
-            return CreatedAtAction(nameof(GetCart), value);
+            return CreatedAtAction(nameof(GetCart), CartToDTO(value));
         return BadRequest(new ProblemDetails {Title = "The product can not be added to cart."});
     }
 
@@ -64,5 +64,21 @@ public class CartController: ControllerBase
             await _context.SaveChangesAsync();
         }
         return value;
+    }
+
+    private CartDTO CartToDTO(Cart cart)
+    {
+        return new CartDTO
+        {
+            CartId = cart.CartId,
+            CustomerId = cart.CustomerId,
+            CartItems = cart.CartItems.Select(item => new CartItemDTO {
+                ProductId = item.ProductId,
+                Name = item.Product.ProductName,
+                Price = item.Product.ProductPrice,
+                Quantity = item.Quantity,
+                ImageUrl = item.Product.ImageUrl
+            }).ToList()
+        };
     }
 }

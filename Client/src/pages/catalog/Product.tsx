@@ -3,12 +3,26 @@ import { IProduct } from "../../model/IProduct";
 import { AddShoppingCart } from "@mui/icons-material";
 import SearchIcon from '@mui/icons-material/Search';
 import { Link } from "react-router";
+import requests from "../../api/request";
+import { useState } from "react";
 
 interface Props {
     product: IProduct
 }
 
 function Product({product}: Props) {
+
+  const [loading, setLoading] = useState(false);
+
+  function handleAddItem(productId:number)
+  {
+    setLoading(true);
+    requests.Cart.addItem(productId)
+    .then(cart => console.log(cart))
+    .catch(error => console.log(error))
+    .finally(() => setLoading(false));
+  }
+
     return(
       <>
      <Card>
@@ -24,7 +38,8 @@ function Product({product}: Props) {
             </Typography>
         </CardContent>
         <CardActions>
-          <Button variant="outlined" startIcon={<AddShoppingCart/>} color="success" size="small">Add to cart</Button>
+          <Button variant="outlined" startIcon={<AddShoppingCart/>} color="success" size="small" 
+          onClick={() => handleAddItem(product.productId)}>Add to cart</Button>
           <Button variant="outlined" component={Link} to={`/catalog/${product.productId}`} size="small" startIcon={<SearchIcon/>} color="primary">View</Button>
         </CardActions>
      </Card>
